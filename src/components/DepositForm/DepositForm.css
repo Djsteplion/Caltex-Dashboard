@@ -1,0 +1,174 @@
+.logos{
+    width: 95.4%;
+    background-color: #140460;
+    justify-content: center;
+    margin-top: 50px;
+    
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.bodywraps{
+  margin-right: 190px;
+    margin-left: 120px;
+    width: 80%;
+    display:block!important;
+}
+
+.rest-of-form{
+    width: 100%;
+   
+    
+}
+
+.the-rest{
+background-color: rgba(18,14,251,0.05);
+width: 100%;
+}
+
+.amount-to-deposit{
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: -20px;
+    color: #1E1E1E;
+    text-align: center;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+#formz{
+    padding-left: 160px;
+    padding-right:120px;
+    width: 70%;
+    font-size: 16px;
+}
+.card-number{
+    display: flex;
+    flex-direction: column;
+}
+
+#cardNo{
+    outline: none;
+    padding: 15px 20px;
+    color:#1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+    background-color: #ffff;
+    margin-top: 8px;
+}
+
+.edCv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.expiryDate{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#cvv, #eD{
+    outline: none;
+    padding: 15px 20px;
+    color:#1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+    background-color: #ffff;
+    margin-top: 8px;
+    width: 150%;
+    
+
+}
+
+.cvv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.cardHolder{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#cd{
+    outline: none;
+    padding: 15px 20px;
+    color:#1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+    background-color: #ffff;
+    margin-top: 8px;
+}
+
+.emailAddress{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+#emailAdr{
+    outline: none;
+    padding: 15px 20px;
+    color:#1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+    background-color: #ffff;
+    margin-top: 8px;
+}
+
+.save-details{
+    margin-top: 30px;
+}
+
+.pay{
+    background-color: #140460;
+    padding: 5px 20px ;
+    text-align:center;
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.pay:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.images{
+    text-align: center;
+}
+
+.images img{
+    width: 40px;
+    padding-top: 20px;
+}
+
+.save-details img{
+    padding-right: 8px;
+    margin-bottom: -4px;
+}
+
+.save-details img:hover{
+   cursor: pointer;
+}
+
+
+
+/**
+<<<<-------------STYLE FOR MOBILE DEVICES-------------------->>>>
+**/ 
+
+@media screen and (max-width:600px ){
+    
+   
+    }

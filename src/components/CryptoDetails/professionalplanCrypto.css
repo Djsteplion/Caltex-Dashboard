@@ -1,0 +1,1018 @@
+@import 'font-awesome/css/font-awesome.min.css';
+
+
+
+:root{
+    --bc-pl: 40px;
+    --bc-pr: 35px;
+    --if-pl: 80px;
+    --if-pr: 50px;
+    --deposit-lp:50px;
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.board{
+    clear: both;
+}
+
+.logo{
+    padding-left:62px;
+    padding-top: 25px;
+}
+.panel{
+    width: 25%;
+    background-color: rgba(18,14,251,0.05)!important;
+    margin-top:-8px;
+    float: left;
+}
+
+.panel-control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+
+#dashboard{
+    color: rgba(240, 166, 23, 1);
+
+}
+
+.control{
+    margin-top: 26px;
+    font-size: 16px;
+    transition: ease 0.2s;
+}
+
+
+
+.control:hover{
+    color: rgba(240, 166, 23, 1);
+    cursor: pointer;
+}
+
+
+#funding, #trading, #partners{
+    padding-left: 36px!important;
+}
+
+#bam{
+    padding-left: 36px;
+}
+
+#help{
+    margin-left: 5px;
+}
+
+
+/* Board Content*/
+/* Board Content*/
+/* Board Content*/
+/* Board Content*/
+
+.board-content{
+    width: 75%;
+    float: left;
+}
+
+.welcome-asset img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 26px;
+    margin-right: 15px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(199, 195, 195);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    padding-bottom: 13px;
+    margin-top:-7px;
+}
+
+.welcome-asset{
+    display: flex;
+    cursor: pointer;
+}
+
+.welcome-text{
+    padding-top: 15px;
+    padding-left: var(--bc-pl);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.john{
+  padding-top: 25px;
+  padding-right: 15px;
+}
+
+.bell-notification{
+    padding-top: 41px; 
+    padding-right: var(--bc-pr);
+}
+
+
+
+.total-balance{
+    padding-top: 12px;
+    padding-left: var(--bc-pl);
+    cursor: pointer;
+}
+
+.total-balance h5{
+    color: rgba(30,30,30,1);
+    opacity: 0.8;
+}
+
+.monetary-options{
+    display: flex;
+    margin-left: var(--bc-pl);
+    margin-right: var(--bc-pr);
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.invests, .deposits , .withdraws , .investments {
+    border: 1px solid rgb(199, 195, 195);
+    padding: 16px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+.withdraws a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.withdraws a:hover{
+    background-color: rgba(18,14,251,1);
+    color: white;
+}
+
+.deposits a{
+    text-decoration-line: none;
+    color: black; 
+}
+
+.deposits a:hover{
+    background-color: rgba(18,14,251,1);
+    color: white;
+}
+
+.invests:hover, .deposits:hover, .withdraws:hover, .investments:hover{
+    background-color: rgba(18,14,251,1);
+    color: white;
+}
+.invests:hover, .deposits:hover, .withdraws:hover, .investments:hover{
+    background-color: rgba(18,14,251,1);
+    color: white;
+}
+
+.ct-forex{
+    padding-left: var(--bc-pl);
+    padding-right: var(--bc-pr);
+    padding-top: 70px;
+}
+
+.ct-forex p{
+    opacity: 0.9;
+}
+
+
+/**  
+Invest With Caltex[ --** CHOOSE YOUR FOREX/CRYPTO PLAN **-- ] Page
+**/
+
+.invest-wt-caltex{
+    margin-left: -40px!important;
+    margin-top: 30px;
+}
+
+
+
+#arrow{
+    cursor: pointer;
+    margin-left: -75px!important;
+}
+
+.cal-text{
+    font-size: 17.5px;
+    opacity: 0.9;
+    color: grey;
+    padding-left: var(--bc-pl);
+}
+
+.forex-or-crypto, .forex-or-crypto-inner{
+    display: flex;
+    margin-left: 20px;
+}
+
+#forexC{
+    padding: 8px 40px 7px ;
+    border-bottom: 3px solid #D7D7D7 ;
+    border-bottom-left-radius: 3px;
+    transition: ease-out 0.5s;
+    color: grey;
+}
+
+#cryptoC{
+    border-bottom: 3px solid black ;
+    padding: 8px 40px 7px ;
+    border-bottom-right-radius: 3px;
+    transition: ease-out 0.3s;
+    color: grey;
+}
+
+#cryptoC:hover, #forexC:hover{
+    cursor: pointer;
+    
+}
+
+/** Invest  Forex **/
+.wide-array{
+   padding-left: 0px; 
+   padding-right: 50px;
+   line-height: 24px;
+   font-size: 17px;
+   color: grey;
+}
+
+.choose{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.choose-plan1{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    background-color: #D7D7D7;
+    border-radius: 2px;
+    padding: 13px 26px;
+    color: grey;
+}
+
+.choose-plan2{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    background-color: #D7D7D7;
+    border-radius: 2px;
+    padding: 13px 26px;
+    color: grey;
+}
+
+.choose-plan2:hover{
+    cursor: pointer;
+}
+
+.choose-plan1:hover{
+    cursor: pointer;
+}
+
+.close-plan1{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    background-color: #D7D7D7;
+    border-radius: 2px;
+    padding: 13px 26px;
+    color: grey;
+}
+
+.close-plan2{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    background-color: #D7D7D7;
+    border-radius: 2px;
+    padding: 13px 26px;
+    color: grey;
+}
+
+.close-plan1:hover{
+    cursor: pointer;
+}
+
+.close-plan2:hover{
+    cursor: pointer;
+}
+
+
+#close-plan1{
+   display: none;
+}
+
+#close-plan2{
+    display: none;
+}
+
+#plan-forex{
+    display: none;
+}
+
+#plan-crypto{
+    display: none;
+}
+
+#choose-plan2{
+    display: none;
+}
+
+#invest-now{
+    display: none;
+}
+
+.plan a{
+    display: block;
+    text-decoration-line: none;
+    color: black;
+}
+
+.starter-plan , .professional-plan, .master-plan{
+    padding: 24px 26px ;
+    border: 1px solid #D7D7D7;
+    width: 60%;
+    transition: ease-out 0.3s;
+}
+
+.starter-plan a:hover, .professional-plan:hover, .master-plan:hover{
+    cursor: pointer;
+    background-color:rgba(18,14,251,1) ;
+    color: white;
+}
+
+#master-planCrypto,
+#master-planForex{
+    display: none;
+}
+
+.invest-now{
+    margin-left: 0px;
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 35px;
+    color: white;
+    border-radius: 8px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.invest-now:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+
+
+/**
+***
+STARTER PLAN FOREX  
+***
+**/
+
+#check{
+    color: rgba(240, 166, 23, 1);
+    font-weight: 200;
+    font-size: large;
+    padding-right: 10px;
+}
+
+.invest-starterForex {
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.change-starterForex{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    text-decoration-line: none;
+    padding: 18px 42px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.invest-starterForex:hover, .change-starterForex:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.starter-planForex{
+    margin-left: var(--bc-pl);
+}
+
+.investment-buttons{
+    margin-top: 65px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+/**
+***
+MASTER PLAN FOREX  
+***
+**/
+
+.invest-masterForex {
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.change-masterForex{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    text-decoration-line: none;
+    padding: 18px 42px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.master-planForex{
+    margin-left: var(--bc-pl);
+}
+
+.invest-masterForex:hover, .change-masterForex:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+/**
+***
+PROFESSIONAL PLAN FOREX  
+***
+**/
+
+.professional-planForex{
+    margin-left: var(--bc-pl);
+}
+
+.invest-professionalForex{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.change-professionalForex{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    text-decoration-line: none;
+    padding: 18px 42px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.invest-professionalForex:hover, .change-professionalForex:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+
+/**
+***
+STARTER PLAN CRYPTO  
+***
+**/
+
+.starter-planCrypto{
+    margin-left: var(--bc-pl);
+}
+
+
+.invest-starterCrypto{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.change-starterCrypto{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    text-decoration-line: none;
+    padding: 18px 42px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+
+.invest-starterCrypto:hover, .change-starterCrypto:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+
+/**
+***
+PROFESSIONAL PLAN CRYPTO  
+***
+**/
+
+.professional-planCrypto{
+    margin-left: var(--bc-pl); 
+}
+
+.invest-professionalCrypto{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+ .change-professionalCrypto{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    text-decoration-line: none;
+    padding: 18px 42px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.invest-professionalCrypto:hover, .change-professionalCrypto:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+
+
+/**
+***
+MASTER PLAN CRYPTO  
+***
+**/
+
+.master-planCrypto{
+    margin-left: var(--bc-pl); 
+}
+
+.invest-masterC {
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 8px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.change-masterC{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 42px;
+    color: white;
+    border-radius: 8px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+
+.invest-masterC:hover, .change-masterC:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+
+/**
+***
+STARTER PLAN-INVEST forex form  
+***
+**/
+
+.starter-planInvestF,.professional-planInvestF, .master-planInvestF,
+.starter-planInvestC,.professional-planInvestC, .master-planInvestC{
+    width: 60%;
+}
+
+#starter-planInvestF,#professional-planInvestF, #master-planInvestF,
+#starter-planInvestC,#professional-planInvestC, #master-planInvestC{
+    display: none ;
+}
+
+.input-amount{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.input-des{
+    padding-top: 20px;
+    font-size: larger;
+    color: grey;
+}
+
+#amount, #roi, #doi{
+    width: 60%;
+    border: 1px solid #D7D7D7;
+    background-color: #D7D7D7;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    color: grey;
+    font-size: small;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 2px;
+    outline: none;
+
+}
+
+.dayOI{
+    display: flex;
+    padding: 8px 8px;
+    background-color: #D7D7D7;
+    color: grey;
+    width: 15%;
+    margin-right: 15px;
+}
+
+#dayOI{
+    outline: none;
+    border: none;
+    width: 50%;
+    background-color: #D7D7D7;
+    color: grey;
+}
+
+
+.input-date{
+   display: flex;
+   margin-left: 125px;
+   
+}
+
+#edit-date{
+    padding-top: 14px;
+}
+
+
+.invest-starter-btn{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 180px;
+    padding-left: 100px;
+}
+
+.invest-starter{
+    margin-left: var(--if-pl);
+    margin-top: 58px;
+    background-color: rgba(18,14,251,1);
+    padding: 18px 70px;
+    color: white;
+    border-radius: 8px;
+    transition: ease 0.4s;
+    width: 8%;
+    text-align: center;
+}
+
+.invest-starter:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.invest-text{
+    padding-bottom: 30px;
+}
+
+
+/**
+congratulatory Message
+**/
+.congratulations{
+    width: inherit;
+    text-align: center;
+}
+
+#congratulations{
+    display: none;
+}
+
+.congrat-text{
+    text-align: center;
+    background-color: #D7D7D7;
+    padding: 70px 50px;
+    width: 80%;
+    margin-top: 110px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.see-btn{
+    background-color: rgba(18,14,251,1);
+    padding: 18px 60px;
+    color: white;
+    border-radius: 9px;
+    transition: ease 0.4s;
+    text-align: center;
+    width: 9%;
+}
+
+.see-btn:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.see-investment-btn{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/**
+<<<<-------------THIS IS THE START OF DEPOSIT-CONTAINER STYLE-------------------->>>>
+**/
+
+
+#deposit-funds-container{
+    display: none;
+}
+
+.deposit-funds{
+    width: inherit;
+    background-color: #f3ecec;
+    border-top-left-radius:10px;
+}
+
+.deposit-fund-text{
+    margin-left: var(--bc-pl);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.deposit-limit-text{
+    padding-left: var(--deposit-lp);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: grey;
+}
+
+.deposit-container{
+    margin-left: var(--bc-pl);
+    margin-right: var(--bc-pr);
+    background-color: white;
+}
+
+.clicking-here{
+    color: rgba(18,14,251,1);
+    font-weight: 400;
+}
+
+.all{
+    text-align: center;
+    border: 2px solid #D7D7D7;
+    padding: 60px 85px;
+    margin-left: var(--deposit-lp);
+    border-radius: 5px;
+}
+
+.all:hover{
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.credit-cards{
+    text-align: center;
+    border: 2px solid #D7D7D7;
+    padding: 60px 85px;
+    margin-left: var(--deposit-lp);
+    border-radius: 5px;
+}
+
+
+.credit-cards:hover{
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.cryptos{
+    text-align: center;
+    border: 2px solid #D7D7D7;
+    padding: 60px 75px;
+    margin-left: var(--deposit-lp);
+    border-radius: 5px;
+}
+
+.cryptos:hover{
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.depo-options{
+    display: flex;
+    text-align: center;
+    width: inherit;
+    margin-bottom: var(--deposit-lp);
+}
+
+
+.crypto-options{
+    width: inherit;
+    border-bottom: 5px solid #D7D7D7;
+    border-bottom-left-radius: 5px;
+    margin-bottom:30px;
+    margin-left:var(--deposit-lp);
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+.credit-options{
+    width: inherit;
+    border-bottom: 5px solid #D7D7D7;
+    border-bottom-left-radius: 5px;
+    margin-bottom:30px;
+    margin-left:var(--deposit-lp);
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+.crypto-opt{
+    border-bottom:5px solid black ;
+    border-bottom-left-radius:5px; 
+    width: 11%;
+    margin-bottom: -5px;
+}
+
+.credit-opt{
+    border-bottom:5px solid black ;
+    border-bottom-left-radius:5px; 
+    width: 16%;
+    margin-bottom: -5px;
+}
+
+.crypto-pay{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    padding: 10px 20px;
+    border: 2px solid #D7D7D7;
+    margin-left: var(--deposit-lp);
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+
+.crypto-pay:hover{
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+.credit-pay{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    padding: 10px 20px;
+    border: 2px solid #D7D7D7;
+    margin-left: var(--deposit-lp);
+    border-radius: 7px;
+}
+
+.credit-pay:hover{
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+#crypto-circle{
+    color: rgba(240, 166, 23, 1);
+}
+
+.transaction-processing{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: grey;
+}
+
+.transaction-processing:hover{
+    cursor: pointer;
+}
+
+.transaction-processing-details{
+   width: 90%;
+   padding-left: 50px;
+   padding-top: 30px;
+   padding-right: 20px;
+   font-weight: 200;
+   
+}
+
+.trans-pro-del{
+    background-color: #D7D7D7;
+    margin-left: var(--deposit-lp);
+    margin-top: 50px;
+    margin-right: 110px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#trans-pro-det{
+    display: none;
+}
+
+#circle{
+    font-size: 9px;
+}
+
+#transactionPro2{
+    display: none;
+}
+
+
+
+/**
+<<<<-------------STYLE FOR MOBILE DEVICES-------------------->>>>
+**/ 
+
+@media screen and (max-width:600px ){
+    
+    .invest-professionalCrypto {
+        margin-left: 10px!important;
+        margin-top: 23px!important;
+        padding: 12.53px 28px!important;
+    }
+    
+    .change-professionalCrypto{
+        margin-left: 10px!important;
+        margin-top: 23px!important;
+        padding: 10px 16px!important;
+    }
+    
+    .investment-buttons{
+        margin-top: 50px!important;
+        margin-bottom: 40px;
+        margin-left: 10px!important;
+    }
+
+
+
+
+    }
